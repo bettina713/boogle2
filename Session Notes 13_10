@@ -1,0 +1,41 @@
+a {
+  text-decoration: none (kein Unterstrich beim Link); overline, underline, line-through
+}
+
+footer, dann div left and right, und dann float:left und float:right, ich muss diese genau praezisieren; overflow: auto; und width: 100%;ergo:
+
+<html>
+  <head>
+    <style>
+
+      body {
+        margin:0%;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        overflow: auto;
+        border-top: 1px (Dicke zuerst), solid (dicke oder stil), red (farbe); Hier immer die gleiche reihenfolge benutzen!
+        padding: 10px; hier kann ein scrollbalken enstehen; weil ich ja nun von der breite das padding hinzufuege!
+        }
+
+      .left {
+        float:left;
+        }
+
+      .right {
+      float:right;
+      }
+        </style>
+      </head>
+
+<body>
+  <div class="footer">
+  <div class="right">ein link</div>
+  <div class="left">ein anderer link</div>
+  </div>
+</body>
+</html>

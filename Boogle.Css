@@ -1,0 +1,107 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin:0;
+  margin-top:10px;
+  margin-left:10px;
+  padding:0;
+
+  .header {
+    padding:10px;
+    position:fixed;
+    width:100%;
+    z-index:9999;
+
+  div#wrapperHeader {
+     width:100%;
+     height;200px;
+     background:url(images/header.png) repeat-x 0 0;
+     text-align:center;
+    }
+
+    div#wrapperHeader div#header {
+     width:1000px;
+     height:200px;
+     margin:0 auto;
+    }
+
+    div#wrapperHeader div#header img {
+     width:;
+     height:;
+     margin:0 auto;
+    }
+.navigation {
+    background-color: white;
+    height: 50px;
+    width: auto;
+}
+#main {
+    width: 600px;
+    margin: 0 auto;
+}
+.relative1 {
+    background-color: white;
+   position: relative;
+}
+.relative2 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: gray;
+    width: 500px;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: white;
+}
+.kvadrat {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kvadrat {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+div.image {
+   content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAgVBMVEX/////AAD/+fn/3Nz/kZH/rq7/p6f/1NT/EBD/nJz/7e3/zMz/sbH/vr7/cnL/w8P/8fH/5OT/jIz/lZX/39//19f/pKT/fHz/IyP/Kyv/amr/Y2P/wsL/R0f/trb/+vr/WFj/QkL/Xl7/goL/TU3/Njb/d3f/mZn/RET/MjL/UlJcaHSdAAADD0lEQVR4nO3c6VLbQBCFUS2WZWtBsi3MbmMgkPD+DxhIhUogpOgea2gavvMbV3EvQjPTEiQJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4KrK+GvLDuuvaTVMU0/V6frdaTR6s7ubz9XRaFJu26+oyHxZ9Zv3Njqgq2/Xk9urmZJaqHe8uD5bzpl5Yh9hDd/1NH/xVs9PC5YVRjJT/yZG7FrLdyBU8qK1D6VTjN/CgsY6lsY1Sga8r4SpSB6mfe0IZq4L01jqa2H20DtxcCH28CtKpdTihNmIHZ9bhhK4jdpBahxO6iNlBZZ1OJmYFTrYIMW+JXm6Kh1E7WFrHE4m5LKTpqXU8kWnUDnbW8USWoiw/QkuwjidyK4vSfOYOLkVRMukF88oHP77v4iiVrK7nXGySjhU/zlr2xX/LjeOJyKI8XdLqVaQ0DSek6yDZHuk66CyzSSk7SJKF6pDV2iUTy9QdJEmneArlYbgsPDK9WOLm4g48HJqEjxZeLvPZgbCDtUkqnUVYB0mS70QfnBtk0hpCOxCeOFfvnkgvD+8gSSZvf3DyznlCCEco/9n292/eFjwMUfa6DpLh5qt3IFkcPPwu7HFPFG0SPNwTg9dG4WbRw9oYuEcSHxo87JGC9sqKw6OHvXLImUkzRPBwZtKfnXXDJA9nZ20H2qHiJ5yhqIfLLmZpmplqwEMGFzNV2SL32EEZ8rDJxWxd9mLeNunPAhpw8oxF9qxtuwpqwMmzNsEMYA8z63gicZ+9X1jHEzmP2oGPdzCEA4RAHkYo4gNDoMI6nkzUDlxsE6O+sp2mvXU6mbD3S4SswwnFXBh8LAtxb4ouJiiPwg4CIlvrbFLxdgg+dge/yI5NAayDaZzEqcDF/ORJpn/nTsDH3y78Mf59cTZYZ1Krx/qj9988PGP71zA/C/ivB6+5WXr7NXimKtvi7vrg8kL7XyCOd/enR5P1pl64mCDKZX21GPLDsu6687bdNE3xqGk2m/a86+q6zPOh6p2ciwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwDh+AsPnKRQxYNQvAAAAAElFTkSuQmCC)
+}​
+
+.button {
+    background-color: DodgerBlue;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+a:hover {
+color: gray;
+text-decoration: underline;
+}
+a:link {
+    color: DodgerBlue;
+}
+a:visited {
+    color: #0e0e86;
+}
+
+
+div {
+    box-shadow: 10px 10px 5px grey;
+}
